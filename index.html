@@ -1,0 +1,2093 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from crowdytheme.com/html/arolax/branding-agency.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jan 2025 10:50:05 GMT -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Arolax HTML5 Template" />
+
+    <title>Arolax Branding Agency</title>
+
+    <!-- Fav Icon -->
+
+    <!-- All CSS files -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/progressbar.css" />
+    <link rel="stylesheet" href="./css/meanmenu.min.css" />
+    <link rel="stylesheet" href="./css/magnific-popup.css" />
+    <link rel="stylesheet" href="./css/master-branding-agency.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="font-heading-instumentsans-semibold">
+    <style>
+      .link {
+        position: relative;
+      }
+      .link::before {
+        content: "";
+        position: absolute;
+        bottom: 3px;
+        left: 0;
+        height: 1.8px;
+        width: 100%;
+        border-radius: 40px;
+        transform: scaleX(0);
+        background: black;
+        transform-origin: right;
+        transition: transform 0.3s ease;
+      }
+
+      .link:hover::before {
+        left: 0;
+        height: 1.8px;
+        width: 100%;
+        border-radius: 40px;
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+    </style>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="container" class="container-preloader">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+          <div class="txt-loading">
+            <span data-text="S" class="characters">S</span>
+            <span data-text="T" class="characters">T</span>
+            <span data-text="U" class="characters">U</span>
+            <span data-text="D" class="characters">D</span>
+            <span data-text="I" class="characters">I</span>
+            <span data-text="O" class="characters">O</span>
+            <span data-text="I" class="characters">I</span>
+            <span data-text="V" class="characters">V</span>
+            <span data-text="O" class="characters">O</span>
+            <span data-text="R" class="characters">R</span>
+            <span data-text="Y" class="characters">Y</span>
+          </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+    </div>
+
+    <!-- Cursor Animation -->
+    <div class="cursor1"></div>
+    <div class="cursor2"></div>
+
+    <!-- Sroll to top -->
+    <div class="progress-wrap">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+      <!-- <i class="fa-solid fa-arrow-up-long"></i> -->
+      <!-- <svg class="progress-wrap-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.9999 10.8284L7.0502 15.7782L5.63599 14.364L11.9999 8L18.3639 14.364L16.9497 15.7782L11.9999 10.8284Z"></path></svg> -->
+    </div>
+
+    <!-- Switcher Area Start -->
+    <!-- <div class="switcher__area">
+      <div class="switcher__icon">
+        <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+        <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="switcher__items">
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <p class="switcher__title">mode</p>
+          </div>
+          <div class="switcher__btn mode-type wc-col-2">
+            <button class="active" data-mode="light">light</button>
+            <button data-mode="dark">dark</button>
+          </div>
+        </div>
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <p class="switcher__title">Language Support</p>
+          </div>
+          <div class="switcher__btn lang_dir wc-col-2">
+            <button class="active" data-mode="ltr">LTR</button>
+            <button data-mode="rtl">RTL</button>
+          </div>
+        </div>
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <p class="switcher__title">Layout</p>
+          </div>
+          <div class="switcher__btn layout-type wc-col-2">
+            <button class="active" data-mode="full-width">Full Width</button>
+            <button data-mode="box-layout">Box Layout</button>
+          </div>
+        </div>
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <p class="switcher__title">Cursor</p>
+          </div>
+          <div class="switcher__btn">
+            <select name="cursor-style" id="cursor_style">
+              <option value="1">default</option>
+              <option selected value="2">animated</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Switcher Area End -->
+
+    <!-- offcanvas start  -->
+    <div class="offcanvas-3__area">
+      <div class="offcanvas-3__inner">
+        <div class="offcanvas-3__meta-wrapper">
+          <div class="">
+            <button
+              id="close_offcanvas"
+              class="close-button close-offcanvas"
+              onclick="hideCanvas3()"
+            >
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+          <div class="">
+            <div class="offcanvas-3__meta mb-145 d-none d-md-block">
+              <ul>
+                <li>
+                  <a href="tel:+2-352698102" class="unnerline"
+                    ><u>+2-352 698 102</u></a
+                  >
+                </li>
+                <li><a href="mailto:contact@me.com">contact@me.com</a></li>
+                <li>
+                  <a href="#"
+                    >27 Division St, <br />
+                    New York, NY 10002, USA</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="offcanvas-3__social d-none d-md-block">
+              <p class="title">Follow Me</p>
+              <div class="offcanvas-3__social-links">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas-3__menu-wrapper">
+          <nav class="nav-menu offcanvas-3__menu">
+            <ul>
+              <li><a href="#">home</a></li>
+              <li>
+                <a href="">about</a>
+              </li>
+              <li>
+                <a href="https://crowdytheme.com/html/arolax/services.html"
+                  >services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://crowdytheme.com/html/arolax/service-details.html"
+                  >service details</a
+                >
+              </li>
+              <li>
+                <a href="https://crowdytheme.com/html/arolax/works.html"
+                  >projects</a
+                >
+              </li>
+              <li>
+                <a href="/work"
+                  >project details</a
+                >
+              </li>
+              <li>
+                <a href="https://crowdytheme.com/html/arolax/team.html">team</a>
+              </li>
+              <li>
+                <a href="https://crowdytheme.com/html/arolax/team-details.html"
+                  >team details</a
+                >
+              </li>
+              <li>
+                <a href="https://crowdytheme.com/html/arolax/career.html"
+                  >career</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://crowdytheme.com/html/arolax/career-details.html"
+                  >career details</a
+                >
+              </li>
+              <li>
+                <a href="https://crowdytheme.com/html/arolax/faq.html">faq</a>
+              </li>
+              <li>
+                <a href="https://crowdytheme.com/html/arolax/404.html"
+                  >404 page</a
+                >
+              </li>
+              <li>
+                <a href="https://crowdytheme.com/html/arolax/blog.html">blog</a>
+              </li>
+              <li>
+                <a href="https://crowdytheme.com/html/arolax/blog-details.html"
+                  >blog details</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- offcanvas end  -->
+
+    <!-- search modal start -->
+    <div
+      class="modal fade"
+      id="search-template"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="search-template"
+      aria-hidden="true"
+    >
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form action="#" class="form-search">
+              <input type="text" placeholder="Search" />
+              <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- search modal end -->
+
+    <!-- Header area start -->
+    <header class="header-area ">
+      <div class="container large">
+        <div class="header-area__inner">
+          <div class="header__logo">
+            <a href="#">
+              <h1>Logo</h1>
+            </a>
+          </div>
+          <div class="header__nav pos-center">
+            <nav class="main-menu">
+              <ul>
+                <li class="menu-item-has-children"></li>
+                <li>
+                  <a class="" href=""
+                    ><span
+                      class="w-fit hover:scale-[.8] scale-[.9] h-fit bg-zinc-900 transition-all duration-300 text-white rounded-full px-3 py-1"
+                    >
+                      <p
+                        class="group relative text-white inline-block overflow-hidden"
+                      >
+                        <span
+                          class="inline-block transition-all duration-300 opacity-100 group-hover:-translate-y-5"
+                        >
+                          home
+                        </span>
+                        <span
+                          class="absolute left-0 inline-block translate-y-5 transition-all duration-300 text-white group-hover:opacity-100 group-hover:translate-y-0"
+                        >
+                          home
+                        </span>
+                      </p>
+                    </span></a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><p
+                      class="group relative mt-1 hover:scale-[.9] text-black inline-block overflow-hidden"
+                    >
+                      <span
+                        class="inline-block transition-all duration-300 opacity-100 group-hover:-translate-y-5"
+                      >
+                        Works
+                      </span>
+                      <span
+                        class="absolute left-0 inline-block translate-y-5 transition-all duration-300 text-black group-hover:opacity-100 group-hover:translate-y-0"
+                      >
+                        Works
+                      </span>
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a class="" href=""
+                    ><p
+                      class="group relative hover:scale-[.8] scale-[.9] mt-1 text-black inline-block overflow-hidden"
+                    >
+                      <span
+                        class="inline-block transition-all duration-300 opacity-100 group-hover:-translate-y-5"
+                      >
+                        About
+                      </span>
+                      <span
+                        class="absolute left-0 inline-block translate-y-5 transition-all duration-300 text-black group-hover:opacity-100 group-hover:translate-y-0"
+                      >
+                        About
+                      </span>
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href=""
+                    ><p
+                      class="group relative hover:scale-[.8] scale-[.9] mt-1 text-black inline-block overflow-hidden"
+                    >
+                      <span
+                        class="inline-block transition-all duration-300 opacity-100 group-hover:-translate-y-5"
+                      >
+                        Contact
+                      </span>
+                      <span
+                        class="absolute left-0 inline-block translate-y-5 transition-all duration-300 text-black group-hover:opacity-100 group-hover:translate-y-0"
+                      >
+                        Contact
+                      </span>
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__button">
+            <div class="wc-btn-group">
+              <a
+                class="wc-btn wc-btn-circle"
+                href=""
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a
+                class="wc-btn wc-btn-primary"
+                href=""
+                >Contact Now</a
+              >
+              <a
+                class="wc-btn wc-btn-circle"
+                href=""
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="header__navicon d-xl-none">
+            <button onclick="showCanvas3()" class="open-offcanvas">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header area end -->
+
+    <div class="has-smooth" id="has_smooth"></div>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <div class="body-wrapper body-branding-agency">
+          <!-- overlay switcher close  -->
+          <div class="overlay-switcher-close"></div>
+
+          <main>
+            <!-- hero area start  -->
+            <section
+              style="background-color: rgb(242, 242, 242)"
+              class="hero-area  section-item w-full"
+            >
+              <div
+                class="relative flex mt-[4.5rem] mb-[2rem] w-full xl:h-[90vh]  overflow-hidden lg:h-[80vh] md:h-[70vh] sm:h-[40vh] h-[30vh] justify-center"
+              >
+                <div
+                  class="absolute w-[98%]  overflow-hidden h-full rounded-2xl"
+                >
+                <div class="w-full h-full heroOverlay absolute backdrop-blur-sm"></div>
+                  <img
+                    data-speed=".8"
+                    class="w-full h-full object-fit"
+                    src="https://okopod.com/app/uploads/2024/06/home-hero-image-2000x980.jpg"
+                    alt=""
+                  />
+
+                  <div
+                    style="
+                      content: '';
+                      position: absolute;
+                      top: 0;
+                      right: 0;
+                      bottom: 0;
+                      left: 0;
+                      background: linear-gradient(
+                        67deg,
+                        rgba(0, 0, 0, 0.38) 17.59%,
+                        rgba(255, 255, 255, 0) 46.99%
+                      );
+                      z-index: 2;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      scale: -1;
+                      content: '';
+                      position: absolute;
+                      top: 0;
+                      right: 0;
+                      bottom: 0;
+                      left: 0;
+                      background: linear-gradient(
+                        67deg,
+                        rgba(0, 0, 0, 0.38) 17.59%,
+                        rgba(255, 255, 255, 0) 46.99%
+                      );
+                      z-index: 2;
+                    "
+                  ></div>
+                </div>
+                <div class="w-full h-full px-[2rem] flex items-center">
+                  <div class="title-wrapper z-[2] relative">
+                    <h1
+                      style="color: white"
+                      class="section-title has_char_anim"
+                      data-delay="0.15"
+                      data-translateX="50"
+                    >
+                    Elevate   <br />
+                      Your
+                      <span
+                        style="color: white; border: 1px solid #ffffff2e;"
+                        class="has_fade_anim bg-transparent backdrop-blur-sm border-[#ffffff2e] border-[1px]"
+                        data-fade-from="left"
+                        data-delay="1"
+                        >Pro</span
+                      ><br>
+                      World  <br class="md:block hidden"> 
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="area-bg">
+                <img
+                  src="https://crowdytheme.com/html/arolax/assets/imgs/project/img-s-15.webp"
+                  alt="image"
+                />
+              </div> -->
+              <div class="container large">
+                <!-- <div class="hero-area-inner ">
+                  <div class="section-content">
+                    <div class="section-title-wrapper">
+                      <div class="title-wrapper">
+                        <h1
+                          style="color: white"
+                          class="section-title has_char_anim"
+                          data-delay="0.15"
+                          data-translateX="50"
+                        >
+                        Elevate   <br />
+                          Your
+                          <span
+                            style="color: white; border: 1px solid #ffffff2e;"
+                            class="has_fade_anim bg-transparent backdrop-blur-sm border-[#ffffff2e] border-[1px]"
+                            data-fade-from="left"
+                            data-delay="1"
+                            >Pro</span
+                          >
+                          World  <br class="md:block hidden"> 
+                        </h1>
+                      </div>
+                    </div>
+           <svg width="405" height="90" viewBox="0 0 405 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+</svg>
+
+                  </div>
+                </div> -->
+                <div  class="about-area lg:mt-[9rem] md:mt-[6rem] mt-[3rem]">
+                  <div class="about-area-inner section-spacing-bottom">
+                    <div class="section-content">
+                      <div class="section-title-wrapper">
+                        <div class="subtitle-wrapper">
+                          <span class="section-subtitle text-[#555555] ">Who we are</span>
+                        </div>
+                      </div>
+                      <div class="content-last ">
+                        <div class="text-wrapper">
+                          <p class="text has_text_move_anim ">
+                            <span  class="relative ">
+                              At&nbsp
+                              <svg class="absolute top-[15%] left-[5%] rotate scale-[1.7] w-full h-full" width="263" height="122" viewBox="0 0 263 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="decorativePath" d="M317.759 88.5042C429.77 19.8617 192.443 -3.9228 84.5 2.5C-23.4435 8.92279 -12.3097 47.6304 40 72.5C92.3097 97.3696 404.538 32.9261 404.538 32.9261" stroke="#FFBF00" stroke-width="2"/>
+                                </svg>
+                                
+                                
+                              Studio Ivory,</span>we&nbspare&nbsppassionate about designing spaces that inspire and endure. As a forward-thinking architecture firm, we blend innovation, functionality, and aesthetics to create structures that resonate with our clients' visions.
+                          </p>
+                        </div>
+                        <div
+                          class="btn-wrapper has_fade_anim"
+                          data-fade-from="left"
+                        >
+                          <div class="wc-btn-group">
+                            <a
+                              class="wc-btn wc-btn-circle"
+                              href=""
+                            >
+                              <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a
+                              class="wc-btn wc-btn-primary"
+                              href=""
+                              >Contact Now</a
+                            >
+                            <a
+                              class="wc-btn wc-btn-circle"
+                              href=""
+                            >
+                              <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- hero area end  -->
+
+            <!-- work area start  -->
+            <section class="work-area section-style section-item">
+              <div class="container large">
+                <div class="work-area-inner section-spacing">
+                  <div class="section-header">
+                    <div class="section-title-wrapper">
+                      <div class="title-wrapper">
+                        <h2 class="section-title has_fade_anim flex">
+                          Our&nbspWorks
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="content-last">
+                      <div
+                        class="link-meta has_fade_anim"
+                        data-fade-from="left"
+                      >
+                        <div class="profile-item">
+                          <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                          </div>
+                          <div class="">
+                            <span class="meta-title">Follow</span>
+                            <h2 class="name">Instagram</h2>
+                          </div>
+                        </div>
+                        <div class="profile-item">
+                          <div class="icon">
+                            <i class="fa-brands fa-facebook"></i>
+                          </div>
+                          <div class="">
+                            <span class="meta-title">Follow</span>
+                            <h2 class="name">facebook</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="works-wrapper-box">
+                    <div class="works-wrapper">
+                      <div class="work-box group has_fade_anim">
+                        <div class="thumb relative">
+                          <a href="/work">
+                            <div class="absolute w-full h-full bg-white/5 backdrop-blur-sm z-[1] overlay rounded-2xl"></div>
+                            <div class="w-full h-full overflow-hidden" style="scale: 1.2; transition: scale 0.3s">
+                              <img data-speed=".95" src="https://crowdytheme.com/html/arolax/assets/imgs/works/img-s-31.webp" alt="work image" />
+                            </div>
+                          </a>
+                        </div>
+                        <div class="content">
+                          <h3 class="title">
+                            Smart T-shirt <br />
+                            Artwork
+                          </h3>
+                          <div class="tags">
+                            <div class="tag">Branding</div>
+                            <div class="tag">Business</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="work-box has_fade_anim">
+                        <div class="thumb relative">
+                          <a href="/work">
+                            <div class="absolute w-full h-full bg-white/5 backdrop-blur-sm z-[1] overlay rounded-2xl"></div>
+                            <div class="w-full h-full overflow-hidden" style="scale: 1.2; transition: scale 0.3s">
+                              <img data-speed=".95" src="https://crowdytheme.com/html/arolax/assets/imgs/works/img-s-32.webp" alt="work image" />
+                            </div>
+                          </a>
+                        </div>
+                        <div class="content">
+                          <h3 class="title">
+                            Crafted Payment <br />
+                            Get-way
+                          </h3>
+                          <div class="tags">
+                            <div class="tag">Branding</div>
+                            <div class="tag">Business</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="work-box has_fade_anim">
+                        <div class="thumb relative">
+                          <a href="/work">
+                            <div class="absolute  w-full h-full bg-white/5 backdrop-blur-sm z-[1] overlay rounded-2xl"></div>
+                            <div class="w-full h-full overflow-hidden" style="scale: 1.2; transition: scale 0.3s">
+                              <img data-speed=".95" src="https://crowdytheme.com/html/arolax/assets/imgs/works/img-s-33.webp" alt="work image" />
+                            </div>
+                          </a>
+                        </div>
+                        <div class="content">
+                          <h3 class="title">
+                            Wild Code Zem <br />
+                            Boxes
+                          </h3>
+                          <div class="tags">
+                            <div class="tag">Branding</div>
+                            <div class="tag">Business</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="work-box has_fade_anim">
+                        <div class="thumb relative">
+                          <a href="/work">
+                            <div class="absolute w-full h-full bg-white/5 backdrop-blur-sm z-[1] overlay rounded-2xl"></div>
+                            <div class="w-full h-full overflow-hidden" style="scale: 1.2; transition: scale 0.3s">
+                              <img data-speed=".9" src="https://crowdytheme.com/html/arolax/assets/imgs/works/img-s-34.webp" alt="work image" />
+                            </div>
+                          </a>
+                        </div>
+                        <div class="content">
+                          <h3 class="title">
+                            Floral Business <br />
+                            Card
+                          </h3>
+                          <div class="tags">
+                            <div class="tag">Branding</div>
+                            <div class="tag">Business</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="work-box has_fade_anim">
+                        <div class="thumb relative">
+                          <a href="/work">
+                            <div class="absolute w-full h-full bg-white/5 backdrop-blur-sm z-[1] overlay rounded-2xl"></div>
+                            <div class="w-full h-full overflow-hidden" style="scale: 1.2; transition: scale 0.3s">
+                              <img data-speed=".95" src="https://crowdytheme.com/html/arolax/assets/imgs/works/img-s-35.webp" alt="work image" />
+                            </div>
+                          </a>
+                        </div>
+                        <div class="content">
+                          <h3 class="title">
+                            Colyfate Font <br />
+                            Design
+                          </h3>
+                          <div class="tags">
+                            <div class="tag">Branding</div>
+                            <div class="tag">Business</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="work-box has_fade_anim">
+                        <div class="thumb relative">
+                          <a href="/work">
+                            <div class="absolute w-full h-full bg-white/5 backdrop-blur-sm z-[1] overlay rounded-2xl"></div>
+                            <div class="w-full h-full overflow-hidden" style="scale: 1.2; transition: scale 0.3s">
+                              <img data-speed=".95" src="https://crowdytheme.com/html/arolax/assets/imgs/works/img-s-36.webp" alt="work image" />
+                            </div>
+                          </a>
+                        </div>
+                        <div class="content">
+                          <h3 class="title">
+                            Watch Mockup <br />
+                            Design
+                          </h3>
+                          <div class="tags">
+                            <div class="tag">Branding</div>
+                            <div class="tag">Business</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="section-content section-spacing-top">
+                    <div class=""></div>
+                    <div class="content-last">
+                      <div class="text-wrapper">
+                        <p class="text has_text_move_anim">
+                          Our team of architects and designers is committed to delivering excellence in every project, from concept to completion. Whether it's modern residences, commercial spaces, or urban designs, we approach every challenge with creativity and precision.
+                        </p>
+                      </div>
+                      <div
+                        class="btn-wrapper has_fade_anim"
+                        data-fade-from="left"
+                      >
+                        <div class="wc-btn-group">
+                          <a
+                            class="wc-btn wc-btn-circle"
+                            href="https://crowdytheme.com/html/arolax/works.html"
+                          >
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                          <a
+                            class="wc-btn wc-btn-primary"
+                            href="https://crowdytheme.com/html/arolax/works.html"
+                            >View all works</a
+                          >
+                          <a
+                            class="wc-btn wc-btn-circle"
+                            href="https://crowdytheme.com/html/arolax/works.html"
+                          >
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- work area end  -->
+
+            <!-- fun-fact area start  -->
+            <section class="fun-fact-area section-style section-item">
+              <div class="container large">
+                <div class="fun-fact-area-inner section-spacing">
+                  <div class="section-header">
+                    <div class="section-title-wrapper">
+                      <div class="title-wrapper">
+                        <h2 class="section-title has_fade_anim">
+                          Designing exceptional spaces is no easy task. But this year, we've successfully brought over 150 visionary projects to life.
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="counter-wrapper-box">
+                    <div class="counter-box overflow-hidden">
+                      <img
+                        class="shape-1 show-light img_anim_reveal"
+                        src="https://crowdytheme.com/html/arolax/assets/imgs/shape/img-s-47.webp"
+                        alt="image"
+                      />
+                      <img
+                        class="shape-1 show-dark img_anim_reveal"
+                        src="https://crowdytheme.com/html/arolax/assets/imgs/shape/img-s-47-light.webp"
+                        alt="image"
+                      />
+                      <h3
+                        class="number wc-counter has_fade_anim"
+                        data-fade-from="left"
+                      >
+                        150
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- fun-fact area end  -->
+
+            <!-- service area start  -->
+            <section class="service-area section-style section-item">
+              <div class="container large">
+                <div class="service-area-inner section-spacing">
+                  <div class="section-header">
+                    <div class="section-title-wrapper">
+                      <div class="title-wrapper">
+                        <h2 class="section-title has_fade_anim">
+                          We approach your architectural challenges with a fresh perspective.
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="services-wrapper-box">
+                    <div class="services-wrapper">
+                      <div class="has_fade_anim" data-delay="0.15">
+                        <a
+                          href="https://crowdytheme.com/html/arolax/service-details.html"
+                        >
+                          <div class="service-box">
+                            <span class="number">01</span>
+                            <div class="icon">
+                              <img
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-1-light.webp"
+                                alt="service icon"
+                              />
+                            </div>
+                            <div class="content">
+                              <h3 class="title">Creative Design Solutions</h3>
+                              <p class="text">
+                                Emphasize innovative and unique approaches to design that set the company apart.
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="has_fade_anim" data-delay="0.30">
+                        <a
+                          href="https://crowdytheme.com/html/arolax/service-details.html"
+                        >
+                          <div class="service-box">
+                            <span class="number">02</span>
+                            <div class="icon">
+                              <img
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-2-light.webp"
+                                alt="service icon"
+                              />
+                            </div>
+                            <div class="content">
+                              <h3 class="title">Client-Centric Approach</h3>
+                              <p class="text">
+                                Highlight collaboration with clients to tailor solutions to their needs.
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="has_fade_anim" data-delay="0.45">
+                        <a
+                          href="https://crowdytheme.com/html/arolax/service-details.html"
+                        >
+                          <div class="service-box">
+                            <span class="number">03</span>
+                            <div class="icon">
+                              <img
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-3-light.webp"
+                                alt="service icon"
+                              />
+                            </div>
+                            <div class="content">
+                              <h3 class="title">Technical Expertise</h3>
+                              <p class="text">
+                                Integration of advanced tools and techniques for cutting-edge designs.
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="has_fade_anim" data-delay="0.60">
+                        <a
+                          href="https://crowdytheme.com/html/arolax/service-details.html"
+                        >
+                          <div class="service-box">
+                            <span class="number">04</span>
+                            <div class="icon">
+                              <img
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-4-light.webp"
+                                alt="service icon"
+                              />
+                            </div>
+                            <div class="content">
+                              <h3 class="title">Functionality Meets Aesthetics</h3>
+                              <p class="text">
+                                Showcase the balance between practicality and aesthetics.
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-text has_fade_anim" data-fade-from="left">
+                    <p class="text">
+                      Save your precious time for finding a solution. <br />
+                      <a
+                        class="wc-btn wc-btn-underline"
+                        href=""
+                        >Contact us now</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- service area end  -->
+
+            <!-- process area start  -->
+            <section class="process-area section-style section-item">
+              <div class="container large">
+                <div class="process-area-inner section-spacing">
+                  <div class="shape-1">
+                    <img
+                      class="show-light"
+                      src="https://crowdytheme.com/html/arolax/assets/imgs/shape/img-s-48.webp"
+                      alt="image"
+                    />
+                    <img
+                      class="show-dark"
+                      src="https://crowdytheme.com/html/arolax/assets/imgs/shape/img-s-48-light.webp"
+                      alt="image"
+                    />
+                  </div>
+                  <div class="section-header">
+                    <div class="section-title-wrapper">
+                      <div class="title-wrapper">
+                        <h2 class="section-title has_fade_anim">
+                          Our standard design thinking process
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="process-wrapper-box">
+                    <div class="process-wrapper">
+                      <div class="swiper process-slider">
+                        <div class="swiper-wrapper">
+                          <div
+                            class="swiper-slide has_fade_anim"
+                            data-ease="bounce"
+                            data-delay="0.15"
+                          >
+                            <div class="process-box">
+                              <span class="number">Step - 01</span>
+                              <div class="icon">
+                                <img
+                                  class="show-light"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-16-light.webp"
+                                  alt="process icon"
+                                />
+                                <img
+                                  class="show-dark"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-16.webp"
+                                  alt="process icon"
+                                />
+                              </div>
+                              <div class="content">
+                                <h3 class="title">
+                                  User <br />
+                                  Research
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide has_fade_anim"
+                            data-ease="bounce"
+                            data-delay="0.30"
+                          >
+                            <div class="process-box">
+                              <span class="number">Step - 02</span>
+                              <div class="icon">
+                                <img
+                                  class="show-light"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-17-light.webp"
+                                  alt="process icon"
+                                />
+                                <img
+                                  class="show-dark"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-17.webp"
+                                  alt="process icon"
+                                />
+                              </div>
+                              <div class="content">
+                                <h3 class="title">
+                                  Define <br />
+                                  Problems
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide has_fade_anim"
+                            data-ease="bounce"
+                            data-delay="0.45"
+                          >
+                            <div class="process-box">
+                              <span class="number">Step - 03</span>
+                              <div class="icon">
+                                <img
+                                  class="show-light"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-18-light.webp"
+                                  alt="process icon"
+                                />
+                                <img
+                                  class="show-dark"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-18.webp"
+                                  alt="process icon"
+                                />
+                              </div>
+                              <div class="content">
+                                <h3 class="title">
+                                  Design and <br />
+                                  Prototype
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide has_fade_anim"
+                            data-ease="bounce"
+                            data-delay="0.60"
+                          >
+                            <div class="process-box">
+                              <span class="number">Step - 04</span>
+                              <div class="icon">
+                                <img
+                                  class="show-light"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-19-light.webp"
+                                  alt="process icon"
+                                />
+                                <img
+                                  class="show-dark"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-19.webp"
+                                  alt="process icon"
+                                />
+                              </div>
+                              <div class="content">
+                                <h3 class="title">
+                                  Evaluation & <br />
+                                  Testing
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide has_fade_anim"
+                            data-ease="bounce"
+                            data-delay="0.75"
+                          >
+                            <div class="process-box">
+                              <span class="number">Step - 05</span>
+                              <div class="icon">
+                                <img
+                                  class="show-light"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-17-light.webp"
+                                  alt="process icon"
+                                />
+                                <img
+                                  class="show-dark"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-17.webp"
+                                  alt="process icon"
+                                />
+                              </div>
+                              <div class="content">
+                                <h3 class="title">
+                                  Define <br />
+                                  Problems
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide has_fade_anim"
+                            data-ease="bounce"
+                            data-delay="0.90"
+                          >
+                            <div class="process-box">
+                              <span class="number">Step - 06</span>
+                              <div class="icon">
+                                <img
+                                  class="show-light"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-18-light.webp"
+                                  alt="process icon"
+                                />
+                                <img
+                                  class="show-dark"
+                                  src="https://crowdytheme.com/html/arolax/assets/imgs/icon/icon-s-18.webp"
+                                  alt="process icon"
+                                />
+                              </div>
+                              <div class="content">
+                                <h3 class="title">
+                                  Design and <br />
+                                  Prototype
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- process area end  -->
+
+            <div
+              data-img="true"
+              class="image-wrapper md:block hidden section-style pb-0 overflow-hidden"
+            >
+              <img
+                class="w-100 speed"
+                src="https://crowdytheme.com/html/arolax/assets/imgs/gallery/img-s-34.webp"
+                data-speed=".8"
+                alt="image"
+              />
+            </div>
+
+            <!-- testimonial area start  -->
+            <div class="testimonial-area section-style section-item">
+              <div class="container large">
+                <div class="testimonial-area-inner section-spacing">
+                  <div class="section-header">
+                    <div class="section-title-wrapper">
+                      <div class="title-wrapper">
+                        <h2 class="section-title has_fade_anim">
+                          What they say about us
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial-wrapper-box">
+                    <div class="info-box">
+                      <h3 class="rating">4.9</h3>
+                      <div class="rating-icons">
+                        <img
+                          src="https://crowdytheme.com/html/arolax/assets/imgs/icon/star.webp"
+                          alt="icon"
+                        />
+                        <img
+                          src="https://crowdytheme.com/html/arolax/assets/imgs/icon/star.webp"
+                          alt="icon"
+                        />
+                        <img
+                          src="https://crowdytheme.com/html/arolax/assets/imgs/icon/star.webp"
+                          alt="icon"
+                        />
+                        <img
+                          src="https://crowdytheme.com/html/arolax/assets/imgs/icon/star.webp"
+                          alt="icon"
+                        />
+                        <img
+                          src="https://crowdytheme.com/html/arolax/assets/imgs/icon/star.webp"
+                          alt="icon"
+                        />
+                      </div>
+                      <p class="reviews">(40+ reviews)</p>
+                      <p class="text">
+                        Helping world-class company by creative design.
+                      </p>
+                    </div>
+                    <div class="testimonial-wrapper">
+                      <div class="swiper testimonial-slider">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="testimonial-item">
+                              <div class="content">
+                                <div class="content-top">
+                                  <div class="icon">
+                                    <img
+                                      class="quote-icon"
+                                      src="https://crowdytheme.com/html/arolax/assets/imgs/icon/quote-6.webp"
+                                      alt="Quote Icon"
+                                    />
+                                  </div>
+                                  <div class="text-wrapper">
+                                    <p class="text">
+                                      As a startup that moves quickly and often,
+                                      they have been able to roll with the
+                                      <span>punches</span> at a high standard.
+                                      Whether for our <span>marketing</span> or
+                                      product design needs
+                                    </p>
+                                  </div>
+                                </div>
+                                <div class="author">
+                                  <div class="meta">
+                                    <h3 class="name">David Heyman</h3>
+                                    <span class="post">CEO, Amazon</span>
+                                  </div>
+                                  <div class="publisher">
+                                    <img
+                                      class="show-light"
+                                      src="https://crowdytheme.com/html/arolax/assets/imgs/shape/img-s-49.webp"
+                                      alt="logo"
+                                    />
+                                    <img
+                                      class="show-dark"
+                                      src="https://crowdytheme.com/html/arolax/assets/imgs/shape/img-s-49-light.webp"
+                                      alt="logo"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="testimonial-item">
+                              <div class="content">
+                                <div class="content-top">
+                                  <div class="icon">
+                                    <img
+                                      class="quote-icon"
+                                      src="https://crowdytheme.com/html/arolax/assets/imgs/icon/quote-6.webp"
+                                      alt="Quote Icon"
+                                    />
+                                  </div>
+                                  <div class="text-wrapper">
+                                    <p class="text">
+                                      The team delivers
+                                      <span>high-quality</span> and thoughtful
+                                      work. They've been a
+                                      <span>great partner</span> through out the
+                                      process. They simply go the extra mile!
+                                    </p>
+                                  </div>
+                                </div>
+                                <div class="author">
+                                  <div class="meta">
+                                    <h3 class="name">Mike D. Brown</h3>
+                                    <span class="post">CEO, Alaxa</span>
+                                  </div>
+                                  <div class="publisher">
+                                    <img
+                                      class="show-light"
+                                      src="https://crowdytheme.com/html/arolax/assets/imgs/shape/img-s-49.webp"
+                                      alt="logo"
+                                    />
+                                    <img
+                                      class="show-dark"
+                                      src="https://crowdytheme.com/html/arolax/assets/imgs/shape/img-s-49-light.webp"
+                                      alt="logo"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slider-nav">
+                      <div class="testimonial-button-prev nav-icon">
+                        <i class="fa-solid fa-arrow-left"></i>
+                      </div>
+                      <div class="testimonial-button-next nav-icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clients-area-inner">
+                    <div class="client-slider">
+                      <div class="swiper client-slider-active">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-1.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-1-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-2.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-2-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-3.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-3-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-4.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-4-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-5.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-5-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-6.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-6-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-7.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-7-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-8.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-8-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-9.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-9-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="client-box">
+                              <img
+                                class="show-light"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-10.webp"
+                                alt="client image"
+                              />
+                              <img
+                                class="show-dark"
+                                src="https://crowdytheme.com/html/arolax/assets/imgs/brand/img-s-10-light.webp"
+                                alt="client image"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- testimonial area end  -->
+
+            <!-- team area start  -->
+            <section class="team-area section-style section-item">
+              <div class="container large">
+                <div class="team-area-inner section-spacing">
+                  <div class="section-header">
+                    <div class="section-title-wrapper">
+                      <div class="title-wrapper">
+                        <h2 class="section-title has_fade_anim">
+                          The talented team behind the creative design
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="text-wrapper">
+                      <p class="text has_fade_anim">
+                        Our dedication and commitment to excellence ensure that
+                        your business thrives in the ever-evolving digital
+                        realm.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="team-wrapper-box">
+                    <div class="team-wrapper">
+                      <div class="team-box">
+                        <div class="thumb">
+                          <a
+                            href="https://crowdytheme.com/html/arolax/team-details.html"
+                            ><img
+                              src="https://crowdytheme.com/html/arolax/assets/imgs/team/img-s-15.webp"
+                              alt="team image"
+                          /></a>
+                        </div>
+                        <div class="content">
+                          <div class="top">
+                            <h3 class="name">
+                              <a
+                                href="https://crowdytheme.com/html/arolax/team-details.html"
+                                >Kamal Abraham</a
+                              >
+                            </h3>
+                            <p class="post">CEO, Alaska</p>
+                          </div>
+                          <div class="wc-btn-group">
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a class="wc-btn wc-btn-primary" href="#"
+                              >LinkedIn</a
+                            >
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="team-box">
+                        <div class="thumb">
+                          <a
+                            href="https://crowdytheme.com/html/arolax/team-details.html"
+                            ><img
+                              src="https://crowdytheme.com/html/arolax/assets/imgs/team/img-s-16.webp"
+                              alt="team image"
+                          /></a>
+                        </div>
+                        <div class="content">
+                          <div class="top">
+                            <h3 class="name">
+                              <a
+                                href="https://crowdytheme.com/html/arolax/team-details.html"
+                                >Selina Gomaze</a
+                              >
+                            </h3>
+                            <p class="post">Jr. Executive</p>
+                          </div>
+                          <div class="wc-btn-group">
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a class="wc-btn wc-btn-primary" href="#"
+                              >Twitter</a
+                            >
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="team-box">
+                        <div class="thumb">
+                          <a
+                            href="https://crowdytheme.com/html/arolax/team-details.html"
+                            ><img
+                              src="https://crowdytheme.com/html/arolax/assets/imgs/team/img-s-17.webp"
+                              alt="team image"
+                          /></a>
+                        </div>
+                        <div class="content">
+                          <div class="top">
+                            <h3 class="name">
+                              <a
+                                href="https://crowdytheme.com/html/arolax/team-details.html"
+                                >Pedrik Vadra</a
+                              >
+                            </h3>
+                            <p class="post">Logo Designer</p>
+                          </div>
+                          <div class="wc-btn-group">
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a class="wc-btn wc-btn-primary" href="#"
+                              >LinkedIn</a
+                            >
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="team-box">
+                        <div class="thumb">
+                          <a
+                            href="https://crowdytheme.com/html/arolax/team-details.html"
+                            ><img
+                              src="https://crowdytheme.com/html/arolax/assets/imgs/team/img-s-18.webp"
+                              alt="team image"
+                          /></a>
+                        </div>
+                        <div class="content">
+                          <div class="top">
+                            <h3 class="name">
+                              <a
+                                href="https://crowdytheme.com/html/arolax/team-details.html"
+                                >Thomas Ribbon</a
+                              >
+                            </h3>
+                            <p class="post">Sr. Designer</p>
+                          </div>
+                          <div class="wc-btn-group">
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a class="wc-btn wc-btn-primary" href="#"
+                              >Twitter</a
+                            >
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="team-box">
+                        <div class="thumb">
+                          <a
+                            href="https://crowdytheme.com/html/arolax/team-details.html"
+                            ><img
+                              src="https://crowdytheme.com/html/arolax/assets/imgs/team/img-s-19.webp"
+                              alt="team image"
+                          /></a>
+                        </div>
+                        <div class="content">
+                          <div class="top">
+                            <h3 class="name">
+                              <a
+                                href="https://crowdytheme.com/html/arolax/team-details.html"
+                                >Jonathon Deo</a
+                              >
+                            </h3>
+                            <p class="post">Designer</p>
+                          </div>
+                          <div class="wc-btn-group">
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a class="wc-btn wc-btn-primary" href="#"
+                              >LinkedIn</a
+                            >
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="team-box">
+                        <div class="thumb">
+                          <a
+                            href="https://crowdytheme.com/html/arolax/team-details.html"
+                            ><img
+                              src="https://crowdytheme.com/html/arolax/assets/imgs/team/img-s-20.webp"
+                              alt="team image"
+                          /></a>
+                        </div>
+                        <div class="content">
+                          <div class="top">
+                            <h3 class="name">
+                              <a
+                                href="https://crowdytheme.com/html/arolax/team-details.html"
+                                >Angel D. Mariya</a
+                              >
+                            </h3>
+                            <p class="post">Jr. Designer</p>
+                          </div>
+                          <div class="wc-btn-group">
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a class="wc-btn wc-btn-primary" href="#"
+                              >Twitter</a
+                            >
+                            <a class="wc-btn wc-btn-circle" href="#">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- team area end  -->
+
+            <!-- blog area start  -->
+            <section class="blog-area section-style section-item">
+              <div class="container large">
+                <div class="blog-area-inner section-spacing">
+                  <div class="section-header">
+                    <div class="section-title-wrapper">
+                      <div class="title-wrapper">
+                        <h2 class="section-title has_fade_anim">
+                          Journal from arolax
+                        </h2>
+                      </div>
+                    </div>
+                    <div
+                      class="btn-wrapper has_fade_anim"
+                      data-fade-from="right"
+                    >
+                      <div class="wc-btn-group">
+                        <a
+                          class="wc-btn wc-btn-circle"
+                          href="https://crowdytheme.com/html/arolax/blog.html"
+                        >
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a
+                          class="wc-btn wc-btn-primary"
+                          href="https://crowdytheme.com/html/arolax/blog.html"
+                          >read all posts</a
+                        >
+                        <a
+                          class="wc-btn wc-btn-circle"
+                          href="https://crowdytheme.com/html/arolax/blog.html"
+                        >
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blogs-wrapper-box">
+                    <div class="blogs-wrapper">
+                      <article
+                        class="blog has_fade_anim"
+                        data-fade-from="right"
+                        data-delay="0.15"
+                      >
+                        <div class="thumb">
+                          <a
+                            href="https://crowdytheme.com/html/arolax/blog-details.html"
+                          >
+                            <img
+                              src="https://crowdytheme.com/html/arolax/assets/imgs/blog/img-s-8.webp"
+                              alt="blog image"
+                            />
+                          </a>
+                        </div>
+                        <div class="content">
+                          <h2 class="title">
+                            <a
+                              href="https://crowdytheme.com/html/arolax/blog-details.html"
+                              >A simple guide to retrieval auto generated read
+                              content models</a
+                            >
+                          </h2>
+                          <div class="meta-list">
+                            <a href="#"
+                              ><span class="meta tag">Branding</span></a
+                            >
+                            <span class="meta date">14 Jan 2024</span>
+                          </div>
+                        </div>
+                      </article>
+                      <article
+                        class="blog has_fade_anim"
+                        data-fade-from="right"
+                        data-delay="0.30"
+                      >
+                        <div class="thumb">
+                          <a
+                            href="https://crowdytheme.com/html/arolax/blog-details.html"
+                          >
+                            <img
+                              src="https://crowdytheme.com/html/arolax/assets/imgs/blog/img-s-9.webp"
+                              alt="blog image"
+                            />
+                          </a>
+                        </div>
+                        <div class="content">
+                          <h2 class="title">
+                            <a
+                              href="https://crowdytheme.com/html/arolax/blog-details.html"
+                              >The complex but awesome CSS border-image property
+                              for web design</a
+                            >
+                          </h2>
+                          <div class="meta-list">
+                            <a href="#"
+                              ><span class="meta tag">Branding</span></a
+                            >
+                            <span class="meta date">14 Jan 2024</span>
+                          </div>
+                        </div>
+                      </article>
+                      <article
+                        class="blog has_fade_anim"
+                        data-fade-from="left"
+                        data-delay="0.45"
+                      >
+                        <div class="thumb">
+                          <a
+                            href="https://crowdytheme.com/html/arolax/blog-details.html"
+                          >
+                            <img
+                              src="https://crowdytheme.com/html/arolax/assets/imgs/blog/img-s-10.webp"
+                              alt="blog image"
+                            />
+                          </a>
+                        </div>
+                        <div class="content">
+                          <h2 class="title">
+                            <a
+                              href="https://crowdytheme.com/html/arolax/blog-details.html"
+                              >Refining your mobile on boarding experience using
+                              visual analytics</a
+                            >
+                          </h2>
+                          <div class="meta-list">
+                            <a href="#"
+                              ><span class="meta tag">Branding</span></a
+                            >
+                            <span class="meta date">14 Jan 2024</span>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- blog area end  -->
+
+            <!-- cta area start  -->
+            <section class="cta-area section-style section-item">
+              <div class="container large">
+                <div class="cta-area-inner section-spacing">
+                  <div class="section-content">
+                    <div class="section-title-wrapper">
+                      <div class="subtitle-wrapper">
+                        <span class="section-subtitle has_fade_anim"
+                          >Have a project in mind?</span
+                        >
+                      </div>
+                      <div class="title-wrapper">
+                        <h2 class="section-title has_fade_anim">
+                          Let’s work together
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper has_fade_anim">
+                      <div class="wc-btn-group">
+                        <a
+                          class="wc-btn wc-btn-circle"
+                          href=""
+                        >
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a
+                          class="wc-btn wc-btn-primary"
+                          href=""
+                          >contact us</a
+                        >
+                        <a
+                          class="wc-btn wc-btn-circle"
+                          href=""
+                        >
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- cta area end  -->
+          </main>
+
+          <!-- footer area start  -->
+          <footer class="footer-area section-style pb-0">
+            <div class="container large">
+              <div class="footer-area-inner section-spacing-top">
+                <div class="footer-widget-wrapper">
+                  <div class="footer-logo">
+                    <a href="#"
+                      ><img
+                        src="https://crowdytheme.com/html/arolax/assets/imgs/logo/logo-light-2.png"
+                        alt="site-logo"
+                    /></a>
+                  </div>
+                </div>
+                <div class="footer-widget-wrapper">
+                  <h2 class="title">Service</h2>
+                  <ul class="footer-nav-list">
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Branding</a></li>
+                    <li><a href="#">Webflow</a></li>
+                    <li><a href="#">Development</a></li>
+                  </ul>
+                </div>
+                <div class="footer-widget-wrapper">
+                  <h2 class="title">Company</h2>
+                  <ul class="footer-nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Agency</a></li>
+                    <li><a href="#">Achievement</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="footer-widget-wrapper newsletter">
+                  <h2 class="title">Newsletter</h2>
+                  <div class="newsletter-text">
+                    <p class="text">
+                      Feel free to reach out if you want to collaborate with us,
+                      or simply have a chat.
+                    </p>
+                  </div>
+                  <form action="#" class="subscribe-form">
+                    <div class="input-field">
+                      <span class="icon"
+                        ><i class="fa-regular fa-envelope"></i
+                      ></span>
+                      <input type="email" placeholder="Enter your email" />
+                      <button type="submit" class="subscribe-btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="footer-widget-wrapper">
+                  <h2 class="title">New York</h2>
+                  <ul class="footer-nav-list">
+                    <li>
+                      <a class="text-underline location" href="#"
+                        >1772 Street Charleston, New York</a
+                      >
+                    </li>
+                    <li><a href="tel:+1287-360-633">+1 287-360-633</a></li>
+                    <li>
+                      <a href="mailto:info@yourwebsite.com"
+                        >info@yourwebsite.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-widget-wrapper">
+                  <h2 class="title">London</h2>
+                  <ul class="footer-nav-list">
+                    <li>
+                      <a class="text-underline location" href="#"
+                        >1772 Street Charleston, New York</a
+                      >
+                    </li>
+                    <li><a href="tel:+1287-360-633">+1 287-360-633</a></li>
+                    <li>
+                      <a href="mailto:info@yourwebsite.com"
+                        >info@yourwebsite.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-widget-wrapper">
+                  <h2 class="title">Follow Us</h2>
+                  <ul class="social-links">
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="copyright-area">
+              <div class="container large">
+                <div class="copyright-area-inner">
+                  <div class="copyright-text">
+                    <p class="text">
+                      © 2024-25
+                      <a
+                        href="https://themeforest.net/user/crowdytheme"
+                        target="_blank"
+                        >crowdyTheme</a
+                      >
+                      Agency
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!-- footer area end  -->
+        </div>
+      </div>
+    </div>
+
+    <!-- All JS files -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.magnific.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/counter.js"></script>
+    <script src="./js/progressbar.js"></script>
+    <script src="./js/gsap.min.js"></script>
+    <script src="./js/scrollSmoother.js"></script>
+    <script src="./js/scrollToPlugin.min.js"></script>
+    <script src="./js/sccrollTrigger.js"></script>
+    <script src="./js/SplitText.min.js"></script>
+    <script src="./js/jquery.meanmenu.min.js"></script>
+    <script src="./js/backToTop.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/errorHandling.js"></script>
+    <script src="./js/offCanvas.js"></script>
+
+    <script>
+      // process slider
+      if (".process-slider".length) {
+        var process_slider = new Swiper(".process-slider", {
+          loop: true,
+          slidesPerView: 1,
+          spaceBetween: 0,
+          speed: 1800,
+          watchSlidesProgress: true,
+          breakpoints: {
+            // when window width is >= px
+            576: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            992: {
+              slidesPerView: 3,
+            },
+            1201: {
+              slidesPerView: 3,
+            },
+            1367: {
+              slidesPerView: 3,
+            },
+            1441: {
+              slidesPerView: 4,
+            },
+          },
+        });
+      }
+
+      // testimonial slider
+      if (".testimonial-slider".length) {
+        var testimonial_slider = new Swiper(".testimonial-slider", {
+          loop: true,
+          slidesPerView: 1,
+          spaceBetween: 50,
+          speed: 1800,
+          watchSlidesProgress: true,
+          navigation: {
+            prevEl: ".testimonial-button-prev",
+            nextEl: ".testimonial-button-next",
+          },
+          breakpoints: {
+            // when window width is >= px
+            576: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 1,
+            },
+            992: {
+              slidesPerView: 1,
+            },
+            1201: {
+              slidesPerView: 2,
+            },
+            1367: {
+              slidesPerView: 2,
+            },
+            1441: {
+              slidesPerView: 2,
+            },
+          },
+        });
+      }
+
+      // client slider
+      if (".client-slider-active") {
+        var client_slider_active = new Swiper(".client-slider-active", {
+          slidesPerView: "auto",
+          loop: true,
+          autoplay: true,
+          spaceBetween: 140,
+          speed: 3000,
+          autoplay: {
+            delay: 1,
+          },
+        });
+      }
+    </script>
+  </body>
+
+  <!-- Mirrored from crowdytheme.com/html/arolax/branding-agency.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Jan 2025 10:50:05 GMT -->
+</html>
