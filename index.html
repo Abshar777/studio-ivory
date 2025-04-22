@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
 
     <title>studio ivory</title>
 
@@ -27,7 +26,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       rel="stylesheet"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
   <body class="font-heading-instumentsans-semibold">
@@ -83,7 +82,9 @@
     </div>
 
     <!-- Cursor Animation -->
-    <div class="cursor1 border-1 border-white/40 backdrop-invert bg-zinc-200/20 "></div>
+    <div
+      class="cursor1 border-1 border-white/40 backdrop-invert bg-zinc-200/20"
+    ></div>
     <!-- <div class="cursor2"></div> -->
 
     <!-- Sroll to top -->
@@ -243,12 +244,12 @@
     <!-- search modal end -->
 
     <!-- Header area start -->
-    <header class="header-area">
+    <header style="" class="header-area">
       <div class="container large">
         <div class="header-area__inner">
           <div class="header__logo">
             <a href="#">
-              <h1>Logo</h1>
+              <h1> Ivory</h1>
             </a>
           </div>
           <div class="header__nav pos-center">
@@ -355,8 +356,8 @@
     </header>
     <!-- Header area end -->
 
-    <div class="has-smooth" id="has_smooth"></div>
-    <div id="smooth-wrapper">
+    <div  class="has-smooth" id="has_smooth"></div>
+    <div  id="smooth-wrapper">
       <div id="smooth-content">
         <div class="body-wrapper body-branding-agency">
           <!-- overlay switcher close  -->
@@ -365,7 +366,7 @@
           <main>
             <!-- hero area start  -->
             <section
-              style="background-color: rgb(242, 242, 242)"
+              style="background-color: rgb(242, 242, 242); margin-top: 5rem; margin-bottom: 3rem;"
               class="hero-area section-item w-full"
             >
               <div
@@ -418,7 +419,7 @@
                     "
                   ></div>
                 </div>
-                <div class="w-full h-full px-[2rem] flex items-center">
+                <div  style="padding-left: 4rem; padding-right: 4rem;" class="w-full h-full  flex items-center">
                   <div class="title-wrapper z-[2] relative">
                     <h1
                       style="color: white"
@@ -476,7 +477,7 @@
 
                   </div>
                 </div> -->
-                <div class="about-area lg:mt-[9rem] md:mt-[6rem] mt-[3rem]">
+                <div style="transform: translateY(5rem)" class="about-area lg:mt-[9rem] md:mt-[6rem] mt-[5rem]">
                   <div class="about-area-inner section-spacing-bottom">
                     <div class="section-content">
                       <div class="section-title-wrapper">
@@ -2091,6 +2092,4 @@
       }
     </script>
   </body>
-
- 
 </html>
